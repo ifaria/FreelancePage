@@ -1,0 +1,354 @@
+body {
+    /* height: 1930px; */
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: #f9f5f2;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: scroll;
+    /* background-repeat: repeat; */
+    /* display: block; */
+    /* height: 2700px; */
+
+}
+
+.landing{
+    background-attachment: fixed;
+    background-image: url(../img/red-forest.jpg);
+    background-position: center center;
+    background-size:cover;
+    z-index: -1;
+}
+
+.header {
+    position: relative;
+    background-color: transparent;
+    /* vertical-align: middle; */
+    /* height: 800px; */
+    width: 100%;
+}
+
+.clear-space-0{
+    width: 100%;
+    height: 200px;
+}
+
+#nav {
+    width: 100%;
+    height: 300px; 
+}
+
+#nav h1 {
+    z-index: 2;
+    top: 30px;
+    position: relative;
+    /* float: left; */
+    width: 50%;
+    text-align: center;
+    font-size: 4em;
+    display: inline-block;
+}
+
+.nav-bar{
+    width: 50%;
+    height: 300px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+} 
+
+.nav-list {
+    width: 25%;
+    list-style: none;
+    text-align: right;
+    position: relative;
+    display: inline-block;
+    font-size: 4em;
+    margin-top: 90px;
+    margin-bottom: 75px;
+    margin-left: 20px;
+}
+
+.clear-space-1 {
+    width: 100%;
+    height: 200px;
+
+}
+
+.mantel-logo {
+    display: block;
+    margin: auto;
+    background-image: url(../img/mantel-logo-en-white-400px.png);
+    height: 500px;
+    width: 400px;
+}
+
+
+.name {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+}
+
+h1, .nav-list, h2, .name, .subtitle, a {
+    color: #f7f7ff;
+}
+
+.clear-space-2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.about {
+    height: 450px;
+    width: 100%;
+    background-color: #F7F7FF;
+}
+
+.about-container{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    width: 60%;
+    position: relative;
+}
+
+.about-row {
+    display: inline-block;
+    clear: both;
+    width: 40%;
+    position: relative;
+    text-align: center;
+    height: 450px;
+}
+
+.about-me {
+    /* margin-left: 75px; */
+    margin: auto;
+    font-size: 2.5em;
+    color: black;    
+}
+
+.about-pic-container {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: auto;
+    display: inline-block;
+    top: 0px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.about-pic {
+    display: inline-block;
+}
+
+.about-bio {
+    width: 40%;
+    float: right;
+    position: relative;
+    font-size: 1.15em;
+}
+
+.clear-space-3{
+    width: 100%;
+    height: 500px;
+}
+
+.projects-header {
+    font-size: 5em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.projects {
+    width: 100%;
+    opacity: 1;
+    margin: auto;
+    display: table;
+    background: linear-gradient(45deg, #3b2426 10%, #261315 90%);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.project-container-0 {
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+.project-container-1{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+    margin: 0 0;
+}
+
+.project-subcontainer {
+    width: 100%;
+    height: 750px;
+    vertical-align: middle;
+    /* display: flex; */
+    /* position: relative;
+    margin: 0 auto; */
+}
+
+.project-textbox {
+    height: 95%;
+    width: 45%;
+    background-color: transparent;
+    float: right;
+    opacity: .1;
+    position: relative;
+    top: 23.75px;
+    font-size: 2em;
+    color: black;
+    transition: background-color 1s ease;
+}
+
+.project-text {
+    backface-visibility: hidden;
+}
+
+.project {
+    position: relative;
+    height: 375px;
+    width: 50%;
+    margin-left: 20px;
+    display: inline-flex;
+    z-index: 2;
+}
+
+.project-title {
+    color: white;
+    font-size: 2em;
+    position: relative;
+    margin: auto;
+}
+
+.project-thumbnail {
+    height: 325px;
+    width: 325px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px white;
+    box-shadow: 0px 3px 10px 0px #302826;
+}
+
+
+#ps1 > #project1:hover .project-textbox {
+    background-color: #F7F7FF;
+    transition: all 1s ease;
+}
+
+.t1 {
+    background-image: url(../img/gvd-screenshot-2.png);
+}
+
+.t1:hover {
+    cursor: pointer;
+    background-image: url(../img/gvd-slides.gif);
+}
+
+.t2 {
+    background-image: url(../img/sim-screenshot-4.png);
+}
+
+.t2:hover {
+    cursor: pointer;
+    background-image: url(../img/sim-screenshot.gif);
+}
+
+.t3 {
+    background-image: url(../img/sample-sim-3.png);
+}
+
+.t3:hover {
+    cursor: pointer;
+    background-image: url(../img/sample-sim.gif);
+}
+
+footer {
+    padding: 8em 0 6em 0;
+    background-color: #fffffc;
+    color: black;
+    text-align: center;
+}
+
+.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 0;
+    position: relative;
+
+}
+
+.center-icons{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: -30px;
+}
+
+ul.center-icons li{
+    display: inline-block;
+    padding: 0 3em 0 0;
+    color: black;
+}
+
+.fab, .fas {
+    font-size: 8em;
+    text-align: right;
+    color: #2e2e2e;
+}
+
+.copyright {
+    margin: 2em 0;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.copyright li:first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.copyright li {
+    font-size: 2em;
+    border-left: solid 1px black;
+    display: inline-block;
+    list-style: none;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+}
+
+
+
+
+
+
+
