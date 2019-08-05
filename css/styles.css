@@ -9,7 +9,6 @@ body {
     /* background-repeat: repeat; */
     /* display: block; */
     /* height: 2700px; */
-
 }
 
 .landing{
@@ -23,19 +22,19 @@ body {
 .header {
     position: relative;
     background-color: transparent;
-    /* vertical-align: middle; */
-    /* height: 800px; */
     width: 100%;
 }
 
 .clear-space-0{
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 #nav {
     width: 100%;
-    height: 300px; 
+    height: 140px;
+    position: relative;
+    top: 50px;
 }
 
 #nav h1 {
@@ -45,67 +44,93 @@ body {
     /* float: left; */
     width: 50%;
     text-align: center;
-    font-size: 4em;
+    font-size: 1em;
     display: inline-block;
 }
 
 .nav-bar{
     width: 50%;
-    height: 300px;
+    height: 150px;
     border: none;
     padding: 0px;
     margin: 0px;
-    float: right;
+    float: right;  
 } 
 
 .nav-list {
-    width: 25%;
-    list-style: none;
-    text-align: right;
+    /* width: 68px; */
+    list-style-type: none;
+    display: block;
     position: relative;
-    display: inline-block;
-    font-size: 4em;
-    margin-top: 90px;
-    margin-bottom: 75px;
-    margin-left: 20px;
+    top: 30px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    padding: 15px 40px 0 0;
 }
 
-.clear-space-1 {
-    width: 100%;
-    height: 200px;
+.nav-list a {
+    text-align: center;
+    display: block;
+    /* padding: 16px; */
+}
 
+.nav-list:first-child{
+    padding-left: 18%;
+}
+
+/* .clear-space-1 {
+    width: 100%;
+    height: 80px;
+} */
+
+.nav-color {
+    z-index: 0;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    /* background-color: black; */
+    /* opacity: .5; */
+    z-index: -1;
+    position: absolute;
+    top: -160px;
+    background: linear-gradient(0deg, transparent 10%, black 90%);
 }
 
 .mantel-logo {
     display: block;
     margin: auto;
-    background-image: url(../img/mantel-logo-en-white-400px.png);
-    height: 500px;
-    width: 400px;
+    background-image: url(../img/mantel-logo-en-white-200px.png);
+    height: 263px;
+    width: 216px;
+    top: -200px;
+    position: relative;
 }
 
 
 .name {
-    margin-top: 100px;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     position: relative;
+    top: -200px;
 }
 
 .subtitle {
     text-align: center;
-    font-size: 4em;
+    font-size: 1.25em;
     position: relative;
+    top: -200px;
 }
 
 h1, .nav-list, h2, .name, .subtitle, a {
     color: #f7f7ff;
+    text-transform: uppercase;
 }
 
 .clear-space-2{
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 175px;
 }
 
 .about {
@@ -138,7 +163,7 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .about-me {
     /* margin-left: 75px; */
     margin: auto;
-    font-size: 2.5em;
+    font-size: 2em;
     color: black;    
 }
 
@@ -161,20 +186,21 @@ h1, .nav-list, h2, .name, .subtitle, a {
     float: right;
     position: relative;
     font-size: 1.15em;
+    padding: 5% 10% 5% 10%;
 }
 
 .clear-space-3{
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
 
 .projects-header {
-    font-size: 5em;
+    font-size: 2em;
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .projects {
@@ -182,9 +208,9 @@ h1, .nav-list, h2, .name, .subtitle, a {
     opacity: 1;
     margin: auto;
     display: table;
-    background: linear-gradient(45deg, #3b2426 10%, #261315 90%);
-    padding-top: 150px;
-    padding-bottom: 150px;
+    background: linear-gradient(45deg, transparent 10%, #261315 90%);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .project-container-0 {
@@ -208,34 +234,34 @@ h1, .nav-list, h2, .name, .subtitle, a {
     width: 100%;
     height: 750px;
     vertical-align: middle;
-    /* display: flex; */
-    /* position: relative;
-    margin: 0 auto; */
 }
 
 .project-textbox {
     height: 95%;
     width: 45%;
-    background-color: transparent;
+    /* background-color: #261315; */
+    background-color: white;
     float: right;
-    opacity: .1;
+    opacity: .9;
     position: relative;
     top: 23.75px;
-    font-size: 2em;
-    color: black;
-    transition: background-color 1s ease;
+    font-size: 1.5em;
+    color: white;
 }
 
 .project-text {
-    backface-visibility: hidden;
+    position: relative;
+    margin: 2em;
+    color:black;
+    display: none;
 }
 
 .project {
     position: relative;
     height: 375px;
-    width: 50%;
+    width: 375px;
     margin-left: 20px;
-    display: inline-flex;
+    display: inline-block;
     z-index: 2;
 }
 
@@ -255,10 +281,36 @@ h1, .nav-list, h2, .name, .subtitle, a {
     box-shadow: 0px 3px 10px 0px #302826;
 }
 
+#text-t1:target {
+    display: block;
+}
 
-#ps1 > #project1:hover .project-textbox {
-    background-color: #F7F7FF;
-    transition: all 1s ease;
+#text-t2:target {
+    display: block;
+}
+
+#text-t3:target {
+    display: block;
+}
+
+#text-t4:target {
+    display: block;
+}
+
+#text-t5:target {
+    display: block;
+}
+
+#text-t6:target {
+    display: block;
+}
+
+#text-t7:target {
+    display: block;
+}
+
+#text-t8:target {
+    display: block;
 }
 
 .t1 {
