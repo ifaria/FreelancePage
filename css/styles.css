@@ -3,8 +3,10 @@ body {
     width: 100%;
     /* margin: 0 auto; */
     /* background-color: #f9f5f2; */
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans';
+    font-family: 'Esteban', serif;
     background-attachment: scroll;
     /* background-repeat: repeat; */
     /* display: block; */
@@ -197,7 +199,18 @@ h1, .nav-list, h2, .name, .subtitle, a {
     padding: 5% 10% 5% 10%;
 }
 
+.about-bio p a {
+    color: black;
+    font-family: 'Open Sans';
+    text-transform: none;
+    text-decoration: none;
+    font-size: 1em;
+}
 
+/* .about-bio ul {
+    list-style-type: circle;
+    list-style-position: outside;
+} */
 
 /* PROJECTS */
 /* PROJECTS */
@@ -287,6 +300,7 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .project-title {
     margin: 10% 10% 10% 2%;
     color: #fffffc;
+    text-align: center;
 }
 
 .project-title:first-child {
@@ -378,6 +392,10 @@ h1, .nav-list, h2, .name, .subtitle, a {
 }
 .project-text-1:target {
     display: inline-block;
+}
+
+.project-titles li:hover {
+    color: black;
 }
 .project-text-2:target {
     display: inline-block;
