@@ -2,7 +2,7 @@ body {
     /* height: 1930px; */
     width: 100%;
     /* margin: 0 auto; */
-    background-color: #f9f5f2;
+    /* background-color: #f9f5f2; */
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     background-attachment: scroll;
@@ -18,6 +18,10 @@ body {
     background-size:cover;
     z-index: -1;
 }
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
 
 .header {
     position: relative;
@@ -127,11 +131,15 @@ h1, .nav-list, h2, .name, .subtitle, a {
     text-transform: uppercase;
 }
 
-.clear-space-2{
+/* .clear-space-2{
     position: relative;
     width: 100%;
     height: 175px;
-}
+} */
+
+/* ABOUT */
+/* ABOUT */
+/* ABOUT */
 
 .about {
     height: 450px;
@@ -189,156 +197,252 @@ h1, .nav-list, h2, .name, .subtitle, a {
     padding: 5% 10% 5% 10%;
 }
 
+
+
+/* PROJECTS */
+/* PROJECTS */
+/* PROJECTS */
+
 .clear-space-3{
     width: 100%;
     height: 300px;
-}
+    background-attachment: fixed;
+    background-image: url(../img/red-forest-4.jpg);
+    background-position: center center;
+    background-size:cover;
+    z-index: -1;
+} 
 
 .projects-header {
     font-size: 2em;
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    position: relative;
+    top: 100px;
 }
 
-.projects {
+.projects-section {
     width: 100%;
+    height: 500px;
     opacity: 1;
     margin: auto;
     display: table;
-    background: linear-gradient(45deg, transparent 10%, #261315 90%);
+    /* background: linear-gradient(360deg, #fcbfc5 10%, #F7F7FF 90%); */
+    background: #F7F7FF;
     padding-top: 50px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .project-container-0 {
-    width: 80%;
+    width: 95%;
     height: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2% auto 2% auto;
     position: relative;
-    padding-top: 50px;
+    display: flex;
 }
 
-.project-container-1{
+.project-thumbnails {
+    display: flex;
     position: relative;
-    width: 100%;
-    height: 90%;
+    width: 40%;
+    height: 100%;
     display: inline-block;
-    margin: 0 0;
 }
 
-.project-subcontainer {
-    width: 100%;
-    height: 750px;
+.project-titles {
+    width: 30%;
+    height: 100%;
     vertical-align: middle;
+    display: inline-block;
+}
+
+.project-title a {
+    color: black;
 }
 
 .project-textbox {
-    height: 95%;
-    width: 45%;
-    /* background-color: #261315; */
+    height: 85%;
+    width: 30%;
     background-color: white;
-    float: right;
-    opacity: .9;
+    opacity: .5;
     position: relative;
-    top: 23.75px;
     font-size: 1.5em;
-    color: white;
-}
-
-.project-text {
-    position: relative;
-    margin: 2em;
-    color:black;
-    display: none;
-}
-
-.project {
-    position: relative;
-    height: 375px;
-    width: 375px;
-    margin-left: 20px;
     display: inline-block;
-    z-index: 2;
-}
-
-.project-title {
-    color: white;
-    font-size: 2em;
-    position: relative;
-    margin: auto;
+    border: solid 5px black;
+    padding: 2%;
 }
 
 .project-thumbnail {
-    height: 325px;
-    width: 325px;
-    position: relative;
-    margin: 20px;
-    border: solid 5px white;
-    box-shadow: 0px 3px 10px 0px #302826;
+    height: 30%;
+    width: 30%;
+    border: solid 2px #74bbc2;
+    display: inline-block;
+    background-size: contain;
+    resize: both;   
+    margin: 5px; 
 }
 
-#text-t1:target {
-    display: block;
+.project-title {
+    margin: 10% 10% 10% 2%;
+    color: #fffffc;
 }
 
-#text-t2:target {
-    display: block;
+.project-title:first-child {
+    margin: 0 10% 10% 2%;
 }
 
-#text-t3:target {
-    display: block;
+.project-text-list{
+    display: none;
 }
 
-#text-t4:target {
-    display: block;
-}
 
-#text-t5:target {
-    display: block;
-}
-
-#text-t6:target {
-    display: block;
-}
-
-#text-t7:target {
-    display: block;
-}
-
-#text-t8:target {
-    display: block;
-}
-
-.t1 {
+.project-1 {
     background-image: url(../img/gvd-screenshot-2.png);
+
 }
 
-.t1:hover {
+.project-1:hover {
     cursor: pointer;
     background-image: url(../img/gvd-slides.gif);
 }
 
-.t2 {
+.project-2 {
     background-image: url(../img/sim-screenshot-4.png);
 }
 
-.t2:hover {
+.project-2:hover {
     cursor: pointer;
     background-image: url(../img/sim-screenshot.gif);
 }
 
-.t3 {
+.project-3 {
     background-image: url(../img/sample-sim-3.png);
 }
 
-.t3:hover {
+.project-3:hover {
     cursor: pointer;
     background-image: url(../img/sample-sim.gif);
+} 
+
+.project-4 {
+    background-color: black;
 }
+
+.project-4:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.project-5 {
+    background-color: black;
+}
+
+.project-5:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.project-6 {
+    background-color: black;
+}
+
+.project-6:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.project-7 {
+    background-color: black;
+}
+
+.project-7:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.project-8 {
+    background-color: black;
+}
+.project-8:hover {
+    cursor: pointer;
+    background-color: red;
+}
+.project-9 {
+    background-color: black;
+}
+.project-9:hover {
+    cursor: pointer;
+    background-color: red;
+}
+.project-text-1:target {
+    display: inline-block;
+}
+.project-text-2:target {
+    display: inline-block;
+}
+.project-text-3:target {
+    display: inline-block;
+}
+.project-text-4:target {
+    display: inline-block;
+}
+.project-text-5:target {
+    display: inline-block;
+}
+.project-text-6:target {
+    display: inline-block;
+}
+.project-text-7:target {
+    display: inline-block;
+}
+.project-text-8:target {
+    display: inline-block;
+}
+.project-text-9:target {
+    display: inline-block;
+}
+
+
+/* MORE */
+/* MORE */
+/* MORE */
+
+.concluding-section {
+    height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../img/red-forest-3.jpg);
+    background-position: center center;
+    background-size:cover;
+    z-index: -1;
+}
+
+.more-container {
+    top: 100px;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+ .more-container h2 {
+    margin: 0;
+}
+
+.more-container p {
+    color: #fffffc;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
 
 footer {
     padding: 8em 0 6em 0;
