@@ -290,11 +290,18 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .project-thumbnail {
     height: 30%;
     width: 30%;
-    border: solid 2px #74bbc2;
+    border: solid 2px #7c7c80;
     display: inline-block;
     background-size: contain;
     resize: both;   
     margin: 5px; 
+    background-color: #74bbc2;
+}
+
+.project-thumbnail span {
+    position: relative;
+    float: left;
+    color: black;
 }
 
 .project-title {
@@ -321,6 +328,7 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .project-1:hover {
     cursor: pointer;
     background-image: url(../img/gvd-slides.gif);
+    border-color: #c10617;
 }
 
 .project-2 {
@@ -330,6 +338,7 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .project-2:hover {
     cursor: pointer;
     background-image: url(../img/sim-screenshot.gif);
+    border-color: #c10617;
 }
 
 .project-3 {
@@ -339,60 +348,57 @@ h1, .nav-list, h2, .name, .subtitle, a {
 .project-3:hover {
     cursor: pointer;
     background-image: url(../img/sample-sim.gif);
+    border-color: #c10617;
 } 
 
-.project-4 {
-    background-color: black;
-}
 
 .project-4:hover {
+    z-index: 2;
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
 
-.project-5 {
-    background-color: black;
-}
 
 .project-5:hover {
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
 
-.project-6 {
-    background-color: black;
-}
 
 .project-6:hover {
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
 
-.project-7 {
-    background-color: black;
-}
 
 .project-7:hover {
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
 
-.project-8 {
-    background-color: black;
-}
 .project-8:hover {
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
-.project-9 {
-    background-color: black;
-}
+
+
 .project-9:hover {
     cursor: pointer;
     background-color: red;
+    border-color: #c10617;
 }
+
 .project-text-1:target {
     display: inline-block;
+}
+
+.project-thumbnails a .project-1:hover + .project-titles ul .p-1 {
+    border: solid 1px black;
 }
 
 .project-titles li:hover {
