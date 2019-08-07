@@ -299,7 +299,8 @@ h1, .nav-list, h2, .name, .subtitle, a {
 
 .project-title {
     margin: 10% 10% 10% 2%;
-    color: #fffffc;
+    /* color: #fffffc; */
+    color: #f7f7ff;
     text-align: center;
 }
 
