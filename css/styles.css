@@ -257,14 +257,16 @@ h1, .nav-list, h2, .name, .subtitle, a {
 }
 
 .project-thumbnails {
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
     position: relative;
     width: 40%;
     height: 100%;
-    display: inline-block;
 }
 
 .project-titles {
+    align-items: stretch;
     width: 30%;
     height: 100%;
     vertical-align: middle;
@@ -288,8 +290,8 @@ h1, .nav-list, h2, .name, .subtitle, a {
 }
 
 .project-thumbnail {
-    height: 30%;
-    width: 30%;
+    height: 180px;
+    width: 180px;
     border: solid 2px #7c7c80;
     display: inline-block;
     background-size: contain;
@@ -393,13 +395,24 @@ h1, .nav-list, h2, .name, .subtitle, a {
     border-color: #c10617;
 }
 
+/* .project-thumbnail:hover {
+ cursor: pointer;
+ background-color:
+} */
+
+
+/* .project-thumbnail:hover {
+	animation: ripple-in 2s;
+} */
+
+.project-thumbnail:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+
 .project-text-1:target {
     display: inline-block;
 }
 
-.project-thumbnails a .project-1:hover + .project-titles ul .p-1 {
-    border: solid 1px black;
-}
 
 .project-titles li:hover {
     color: black;
