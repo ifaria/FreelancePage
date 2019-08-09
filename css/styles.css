@@ -388,7 +388,10 @@ h1, .nav-list, h2, .name, .subtitle, a {
  background-color:
 } */
 
-
+#text-1>li>a {
+    text-transform: none;
+    color: black;
+}
 /* .project-thumbnail:hover {
 	animation: ripple-in 2s;
 } */
