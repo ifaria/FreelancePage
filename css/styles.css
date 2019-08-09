@@ -331,6 +331,7 @@ h1, .nav-list, h2, .name, .subtitle, a {
     cursor: pointer;
     background-image: url(../img/gvd-slides.gif);
     border-color: #c10617;
+    z-index: 3;
 }
 
 .project-2 {
@@ -355,45 +356,32 @@ h1, .nav-list, h2, .name, .subtitle, a {
 
 
 .project-4:hover {
-    z-index: 2;
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 
 .project-5:hover {
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 
 .project-6:hover {
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 
 .project-7:hover {
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 .project-8:hover {
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 
 .project-9:hover {
-    cursor: pointer;
-    background-color: red;
-    border-color: #c10617;
-}
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
 
 /* .project-thumbnail:hover {
  cursor: pointer;
@@ -405,9 +393,9 @@ h1, .nav-list, h2, .name, .subtitle, a {
 	animation: ripple-in 2s;
 } */
 
-.project-thumbnail:hover {
+/* .project-thumbnail:hover {
     background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
-  }
+  } */
 
 .project-text-1:target {
     display: inline-block;
